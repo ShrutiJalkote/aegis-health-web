@@ -1056,7 +1056,91 @@ def delete_user(user_id):
             flash('Invalid user ID', 'error')
     return redirect(url_for('users'))
 
+def run_hourly_alerts():
+    """Background thread to send hourly alerts to all registered users"""
+    import time
+    while True:
+        try:
+            time.sleep(3600)  # Wait 1 hour (3600 seconds)
+            
+            if not os.path.exists('users.csv'):
+                print("[Background Alert] No users.csv found, skipping...")
+                continue
+            
+            if gb_disease is None or gb_risk is None:
+                print("[Background Alert] Model not loaded, skipping...")
+                continue
+            
+            if DEMO_SMS:
+                print("[Background Alert] DEMO_SMS is enabled, skipping real alerts...")
+                continue
+            
+            if not TWILIO_ACCOUNT_SID or not TWILIO_AUTH_TOKEN:
+                print("[Background Alert] Twilio credentials not set, skipping...")
+                continue
+            
+            print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting automated alert cycle...")
+            df = pd.read_csv('users.csv', dtype={'phone': str})
+            print(f"[Background Alert] Found {len(df)} users to process")
+            
+            success_count = 0
+            fail_count = 0
+            
+            for idx, row in df.iterrows():
+                try:
+                    raw_phone = str(row['phone'])
+                    phone = check_phone_format(raw_phone)
+                    city = row['city']
+                    
+                    if not phone:
+                        print(f"[Background Alert] Invalid phone format: {raw_phone}")
+                        fail_count += 1
+                        continue
+                    
+                    weather_data = fetch_weather_for_city(city)
+                    if not weather_data:
+                        print(f"[Background Alert] Could not fetch weather for {city}")
+                        fail_count += 1
+                        continue
+                    
+                    disease, risk, precautions = predict_health_risk(weather_data)
+                    if disease is None:
+                        print(f"[Background Alert] Prediction failed for {city}")
+                        fail_count += 1
+                        continue
+                    
+                    alert_msg = build_health_alert_message(city, weather_data, disease, risk, precautions)
+                    result = send_sms(phone, alert_msg)
+                    
+                    if result and isinstance(result, str):
+                        print(f"[Background Alert] ✓ Sent to {phone} ({city})")
+                        success_count += 1
+                    else:
+                        print(f"[Background Alert] ✗ Failed to send to {phone}")
+                        fail_count += 1
+                    
+                    time.sleep(1)  # Small delay between messages
+                    
+                except Exception as e:
+                    print(f"[Background Alert] Error processing user {idx}: {str(e)}")
+                    fail_count += 1
+                    continue
+            
+            print(f"[Background Alert] Cycle completed: {success_count} successful, {fail_count} failed")
+            
+        except Exception as e:
+            print(f"[Background Alert] Critical error: {str(e)}")
+            import traceback
+            traceback.print_exc()
+            time.sleep(300)  # Wait 5 minutes before retrying
+
 if __name__ == '__main__':
+    # Start background alert thread (only in production, not in debug mode)
+    if os.environ.get('FLASK_ENV') == 'production' or os.environ.get('RENDER'):
+        alert_thread = threading.Thread(target=run_hourly_alerts, daemon=True)
+        alert_thread.start()
+        print("[INFO] Background alert thread started - hourly alerts enabled")
+    
     # Disable reloader to prevent constant reloading from venv changes
     # Set use_reloader=False if you experience reload loops
     app.run(debug=True, host='0.0.0.0', port=5000, use_reloader=False)
