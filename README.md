@@ -74,16 +74,54 @@ python send_alerts.py
 
 This script sends health alerts to all registered users every hour based on current weather conditions.
 
+## Deployment on Render
+
+### Quick Deploy (Recommended)
+
+1. **Push to GitHub** (already done):
+   - Repository: `https://github.com/ShrutiJalkote/aegis-health-web`
+
+2. **Connect to Render**:
+   - Go to https://render.com
+   - Sign up/Login with GitHub
+   - Click **New +** → **Blueprint** (or **Web Service**)
+   - Connect your GitHub repo: `ShrutiJalkote/aegis-health-web`
+   - Render will auto-detect `render.yaml` and create both services
+
+3. **Set Environment Variables** in Render Dashboard:
+   - Go to each service → **Environment** tab
+   - Add these variables:
+     ```
+     TWILIO_ACCOUNT_SID = your_twilio_account_sid
+     TWILIO_AUTH_TOKEN = your_twilio_auth_token
+     TWILIO_PHONE_NUMBER = +14793424450 (your Twilio number)
+     DEMO_SMS = false
+     ```
+
+4. **Deploy**:
+   - Click **Create** or **Apply** - Render will build and deploy automatically
+   - Your app will be live at: `https://aegis-health-web.onrender.com`
+
+### Manual Deploy (Without render.yaml)
+
+**Web Service:**
+- **Build Command**: `pip install -r requirements.txt`
+- **Start Command**: `gunicorn "flask_app:app" --bind 0.0.0.0:$PORT --workers 2 --timeout 120`
+
+**Background Worker:**
+- **Build Command**: `pip install -r requirements.txt`
+- **Start Command**: `python send_alerts.py`
+
 ## Configuration
 
 ### Twilio SMS Setup
 
 1. Get Twilio credentials from https://www.twilio.com/
-2. Update credentials in `flask_app.py`:
-   ```python
-   TWILIO_ACCOUNT_SID = 'your_account_sid'
-   TWILIO_AUTH_TOKEN = 'your_auth_token'
-   TWILIO_PHONE_NUMBER = '+your_twilio_number'
+2. Set environment variables (NOT in code):
+   ```
+   TWILIO_ACCOUNT_SID = your_account_sid
+   TWILIO_AUTH_TOKEN = your_auth_token
+   TWILIO_PHONE_NUMBER = +your_twilio_number
    ```
 
 3. **For Trial Accounts**: Verify recipient phone numbers at:
