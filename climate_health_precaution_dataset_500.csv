@@ -1,0 +1,501 @@
+City,Temperature,Humidity,AQI,Rainfall,WindSpeed,Pressure,Date,DayType,Disease_Risk,Risk_Level,Precaution_1,Precaution_2,Precaution_3
+Pune,19.9,37,59,37.4,14.1,995,2025-11-01,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,39.1,89,201,21.6,6.7,1012,2025-11-02,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,22.7,68,153,20.0,10.9,999,2025-11-03,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Bangalore,31.8,89,158,24.3,8.8,997,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Nagpur,33.5,53,190,58.0,5.8,1015,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,30.2,43,180,39.1,12.9,1002,2025-11-06,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,37.1,90,230,33.7,13.2,1015,2025-11-07,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,19.5,61,132,29.4,10.6,1015,2025-11-01,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Nagpur,27.0,37,188,58.9,9.1,1011,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,22.8,82,127,31.3,7.4,1015,2025-11-03,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,22.4,47,217,26.6,19.4,995,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,37.9,54,114,56.1,3.9,995,2025-11-05,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,20.6,47,250,21.6,16.4,1008,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,21.7,41,65,35.4,8.1,1001,2025-11-07,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Mumbai,24.4,76,116,55.4,14.7,1004,2025-11-01,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Ahmedabad,39.1,35,149,33.2,13.0,1004,2025-11-02,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Mumbai,36.9,38,70,32.3,13.5,1011,2025-11-03,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Hyderabad,34.9,46,212,16.2,15.3,1008,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,39.7,67,81,59.9,7.4,997,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,38.8,70,150,17.3,13.9,1001,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,28.4,53,243,33.4,11.2,1007,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,38.7,53,70,47.2,12.0,1013,2025-11-01,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Delhi,39.6,50,223,26.1,14.8,997,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,19.7,52,116,38.7,17.5,1002,2025-11-03,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Chennai,32.8,55,250,36.8,11.1,1000,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,31.0,58,125,5.7,2.9,1007,2025-11-05,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,36.1,38,192,52.9,10.4,1002,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,35.5,46,56,30.7,13.5,1005,2025-11-07,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Delhi,28.2,55,109,30.2,19.0,1014,2025-11-01,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Chennai,29.6,61,87,33.8,15.0,1001,2025-11-02,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Jaipur,39.2,75,138,53.0,11.3,1002,2025-11-03,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Chennai,28.5,52,180,20.5,4.9,997,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,22.6,79,106,8.4,10.6,999,2025-11-05,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Bangalore,33.0,82,146,24.6,19.0,1007,2025-11-06,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Mumbai,25.3,42,104,37.1,4.4,1010,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,29.3,85,153,42.3,19.8,995,2025-11-01,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,30.5,85,158,7.3,16.8,995,2025-11-02,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,26.9,45,232,56.5,19.0,1013,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,19.1,42,50,17.8,11.6,1003,2025-11-04,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Bangalore,26.9,89,81,23.1,19.0,995,2025-11-05,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,28.4,63,250,26.0,7.0,1012,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,39.2,62,66,23.9,12.1,1002,2025-11-07,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Delhi,36.6,75,201,45.0,4.6,1000,2025-11-01,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Pune,37.5,37,214,21.0,12.0,998,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,37.3,46,122,29.1,10.7,1015,2025-11-03,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,31.8,36,93,16.8,3.4,1008,2025-11-04,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Hyderabad,19.2,39,196,27.8,12.5,1010,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,18.5,73,82,18.4,13.5,1008,2025-11-06,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,36.2,47,203,44.2,12.2,995,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,27.4,36,177,15.0,2.7,1007,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,19.8,83,79,58.7,17.0,1001,2025-11-02,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,36.7,87,193,9.0,3.0,1011,2025-11-03,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,36.6,56,173,40.2,12.7,1003,2025-11-04,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Jaipur,30.2,51,203,5.2,16.1,998,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,25.3,73,199,43.4,4.2,1013,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,19.2,69,109,10.7,7.1,1010,2025-11-07,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Jaipur,22.7,69,191,20.5,15.4,1008,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,33.6,39,53,55.4,6.4,1009,2025-11-02,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Hyderabad,25.9,56,206,43.9,3.1,1006,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,32.6,71,71,56.6,16.9,1009,2025-11-04,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Pune,19.2,46,116,20.4,9.1,1007,2025-11-05,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Hyderabad,21.1,63,242,27.2,4.1,1004,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,25.0,80,66,40.3,19.7,1005,2025-11-07,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,18.1,42,247,16.2,17.4,1002,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,22.4,37,109,46.8,14.3,998,2025-11-02,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Nagpur,39.7,46,101,50.6,11.1,1003,2025-11-03,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Delhi,23.9,81,87,2.0,2.8,1015,2025-11-04,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Ahmedabad,38.1,59,208,37.2,13.3,998,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,21.3,38,53,52.7,15.8,1015,2025-11-06,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Nagpur,37.2,64,135,47.0,14.0,1013,2025-11-07,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Kolkata,33.8,73,243,49.9,9.0,1001,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,29.6,89,178,1.4,4.6,1014,2025-11-02,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Ahmedabad,39.7,85,81,59.1,2.9,1013,2025-11-03,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,22.8,40,228,38.0,3.8,1004,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,32.3,38,69,21.0,19.8,1010,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,22.7,40,76,38.6,6.6,999,2025-11-06,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Bangalore,20.7,63,170,17.3,20.0,1013,2025-11-07,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Hyderabad,34.1,44,183,55.5,16.9,997,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,36.1,76,99,24.6,18.8,1011,2025-11-02,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Jaipur,27.5,88,195,12.2,18.6,998,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,29.3,75,135,36.2,19.2,997,2025-11-04,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Bangalore,19.8,83,87,42.9,18.1,1009,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Hyderabad,30.1,78,71,56.0,10.1,1000,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,35.0,55,224,1.8,17.3,1009,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,22.2,82,175,28.8,15.2,1015,2025-11-01,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,38.7,39,190,36.2,11.5,1010,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,34.0,42,100,15.5,8.9,998,2025-11-03,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Mumbai,39.7,57,56,19.4,3.7,1001,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Mumbai,29.1,42,60,25.7,2.5,1001,2025-11-05,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Delhi,19.9,83,88,27.1,10.6,997,2025-11-06,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,20.7,67,63,19.3,7.6,1014,2025-11-07,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Bangalore,27.0,68,164,55.7,10.4,1000,2025-11-01,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Pune,21.1,37,154,35.0,3.3,1011,2025-11-02,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Delhi,26.9,66,70,5.4,15.1,1009,2025-11-03,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Jaipur,31.5,42,91,15.3,16.9,1007,2025-11-04,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Kolkata,24.4,68,126,38.8,4.1,999,2025-11-05,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Bangalore,20.8,72,116,1.0,7.4,1012,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Nagpur,39.9,36,162,1.6,16.2,1009,2025-11-07,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Mumbai,31.7,79,104,8.6,16.3,1006,2025-11-01,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Mumbai,18.1,86,74,22.1,14.6,1009,2025-11-02,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Ahmedabad,35.2,58,56,43.4,6.1,995,2025-11-03,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Ahmedabad,26.1,84,68,2.9,13.0,1005,2025-11-04,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Nagpur,19.0,37,236,16.9,5.2,1001,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,20.7,90,94,44.8,2.0,1014,2025-11-06,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,27.9,71,181,31.4,11.0,1010,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,31.5,57,97,10.1,3.5,1008,2025-11-01,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Jaipur,24.9,75,183,53.8,14.4,999,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,32.8,54,82,16.7,16.4,1014,2025-11-03,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,20.2,40,106,28.5,12.9,996,2025-11-04,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Delhi,24.0,52,70,34.6,11.5,997,2025-11-05,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,23.2,73,241,22.1,10.3,1004,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,28.5,70,195,54.2,15.2,1006,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,35.1,66,62,40.5,3.9,997,2025-11-01,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Jaipur,20.3,58,169,34.8,2.6,1003,2025-11-02,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Jaipur,21.0,36,162,54.9,17.2,999,2025-11-03,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,23.7,65,184,37.5,6.3,1012,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,25.0,86,107,33.5,19.1,1005,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Bangalore,33.7,65,76,20.0,6.6,997,2025-11-06,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Jaipur,28.2,39,223,50.9,18.4,1009,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,23.2,55,172,59.1,15.3,1006,2025-11-01,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Kolkata,22.5,49,163,24.4,7.8,1014,2025-11-02,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Delhi,19.9,69,228,27.7,17.0,1010,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,38.9,79,86,9.8,15.9,1008,2025-11-04,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,36.5,82,158,13.2,12.4,1013,2025-11-05,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,37.3,59,103,19.2,13.5,1013,2025-11-06,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,34.0,52,158,0.1,9.9,1002,2025-11-07,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,20.7,53,115,24.1,8.1,1014,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,38.0,56,154,49.8,5.0,997,2025-11-02,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Chennai,19.2,64,125,25.3,2.4,1013,2025-11-03,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,20.3,57,208,0.1,16.4,1003,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,19.9,43,183,8.3,12.0,1000,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,32.0,88,230,23.6,4.3,999,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,33.9,45,207,50.4,16.3,1005,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,21.4,65,163,54.5,17.5,1004,2025-11-01,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Kolkata,24.8,35,195,37.3,12.9,997,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,21.3,76,112,25.3,6.7,1010,2025-11-03,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Nagpur,36.0,57,131,12.7,16.2,1000,2025-11-04,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Bangalore,30.3,51,56,21.8,12.8,1015,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Hyderabad,31.0,55,166,52.6,12.1,1001,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,23.0,68,79,23.8,14.1,1005,2025-11-07,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Delhi,31.9,54,234,48.8,9.7,1015,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,23.5,38,192,34.8,16.3,1011,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,25.4,52,85,17.4,10.5,995,2025-11-03,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Ahmedabad,24.0,36,246,58.5,15.0,1006,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,28.2,36,241,49.5,16.7,996,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,26.6,43,117,19.6,6.2,999,2025-11-06,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,33.1,55,56,52.5,2.0,1010,2025-11-07,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Hyderabad,22.7,79,198,43.3,4.0,1008,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,28.8,43,54,41.1,5.1,1014,2025-11-02,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Pune,24.2,52,113,52.2,7.1,995,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,36.6,72,229,27.3,11.5,1012,2025-11-04,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,33.5,59,71,50.0,16.5,999,2025-11-05,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Delhi,36.1,70,89,52.5,13.1,1001,2025-11-06,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Kolkata,25.5,58,186,57.7,15.4,1009,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,33.4,85,109,8.8,17.6,1003,2025-11-01,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,27.2,45,191,36.7,7.5,1002,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,21.7,57,193,21.7,10.5,1004,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,20.9,65,98,24.2,5.0,1008,2025-11-04,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Bangalore,27.7,63,183,12.9,7.3,1000,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,20.5,37,75,23.4,13.1,997,2025-11-06,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Hyderabad,32.9,59,232,18.3,12.1,1003,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,18.5,83,241,16.5,18.9,996,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,28.7,44,100,32.3,19.5,1007,2025-11-02,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,32.0,73,206,31.2,13.4,995,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,20.8,88,241,19.7,9.1,1005,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,28.4,73,215,34.1,4.4,1003,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,18.4,50,65,59.3,10.9,1014,2025-11-06,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Hyderabad,29.0,69,91,46.2,4.7,1014,2025-11-07,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Mumbai,35.9,62,225,19.6,12.2,996,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,21.8,84,243,47.7,2.3,1001,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,24.6,41,218,54.4,8.0,1008,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,22.2,66,60,53.8,2.2,996,2025-11-04,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Kolkata,26.5,67,136,42.2,5.6,1015,2025-11-05,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Chennai,19.8,51,244,35.0,14.8,1008,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,27.2,58,171,22.7,18.0,1014,2025-11-07,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Hyderabad,22.8,36,199,52.3,13.4,1005,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,25.6,55,205,59.9,5.2,1004,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,25.9,86,109,9.8,4.2,1004,2025-11-03,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,33.3,79,107,35.6,17.6,996,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,29.0,47,77,28.2,13.0,1008,2025-11-05,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Chennai,33.0,56,117,40.1,8.9,1004,2025-11-06,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Mumbai,34.1,79,179,59.7,8.8,1015,2025-11-07,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Delhi,27.5,38,84,52.9,12.7,1003,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,38.3,60,113,21.4,10.9,998,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,38.7,72,130,7.7,5.1,995,2025-11-03,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,19.6,39,124,51.4,16.7,1006,2025-11-04,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,24.3,39,72,26.3,13.3,1003,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,21.0,62,58,51.8,19.8,1003,2025-11-06,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Chennai,25.1,79,129,13.3,8.5,1012,2025-11-07,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Bangalore,39.9,45,137,12.3,4.7,1012,2025-11-01,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,39.4,53,125,56.4,14.5,1014,2025-11-02,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Nagpur,33.9,82,171,19.8,13.3,1014,2025-11-03,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,26.4,51,233,38.0,11.4,1009,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,20.1,77,147,54.4,15.3,1014,2025-11-05,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Delhi,37.0,59,70,13.7,4.2,996,2025-11-06,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Chennai,27.4,88,162,24.0,8.1,1007,2025-11-07,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,39.0,86,102,58.7,15.6,999,2025-11-01,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Jaipur,18.8,71,194,0.5,13.7,1014,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,24.1,43,139,50.9,14.2,1015,2025-11-03,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Pune,30.8,60,178,28.5,12.8,1008,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,32.7,54,133,20.4,6.5,1004,2025-11-05,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Delhi,29.5,89,178,54.9,4.4,1001,2025-11-06,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,35.1,62,225,18.4,3.0,999,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,38.2,57,168,42.8,4.9,1005,2025-11-01,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Hyderabad,28.8,89,111,52.1,7.2,1008,2025-11-02,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,36.1,53,155,22.0,16.1,1005,2025-11-03,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,29.0,58,82,29.9,14.6,1012,2025-11-04,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Nagpur,39.1,66,168,9.7,3.6,1015,2025-11-05,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,20.6,35,52,21.0,18.5,1012,2025-11-06,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Ahmedabad,25.1,76,166,23.6,9.4,1002,2025-11-07,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Ahmedabad,38.2,35,231,17.8,14.0,1001,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,26.2,85,55,48.4,16.1,1014,2025-11-02,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,19.7,50,123,6.9,11.4,1013,2025-11-03,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Pune,34.7,37,61,25.5,19.0,1013,2025-11-04,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,30.4,41,220,1.3,7.2,995,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,29.2,37,73,36.7,4.9,1012,2025-11-06,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Jaipur,27.4,41,200,57.5,9.8,1002,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,31.8,71,116,30.1,19.5,1005,2025-11-01,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Bangalore,21.5,81,129,28.9,4.4,1002,2025-11-02,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,21.7,84,67,24.2,16.2,996,2025-11-03,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Mumbai,22.1,85,152,3.8,4.0,998,2025-11-04,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Jaipur,29.2,50,226,15.7,12.9,998,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,27.8,87,158,44.3,10.6,1000,2025-11-06,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Mumbai,33.5,69,211,40.1,4.3,1011,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,34.2,43,69,57.7,10.9,1000,2025-11-01,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,35.0,73,195,33.1,14.6,1012,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,25.7,51,189,20.2,3.5,1005,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,22.5,53,55,8.1,18.7,1002,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,35.8,39,236,23.7,14.8,997,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,31.0,76,96,54.4,9.7,996,2025-11-06,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Kolkata,19.6,56,223,0.6,14.8,1009,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,38.9,64,245,42.0,9.1,995,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,24.9,75,161,33.4,19.4,1006,2025-11-02,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Ahmedabad,18.8,39,195,50.1,15.2,1015,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,37.3,68,167,2.8,10.5,1012,2025-11-04,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Pune,22.3,38,129,25.5,7.4,1008,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Nagpur,37.9,82,64,45.5,13.2,1007,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Nagpur,34.6,83,207,51.8,5.8,1002,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,25.1,49,67,21.0,16.2,1009,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,36.5,67,85,29.3,9.9,1006,2025-11-02,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Pune,28.2,40,137,57.1,7.4,1011,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,30.4,58,229,6.3,3.3,998,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,25.6,82,93,5.9,12.6,1012,2025-11-05,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Mumbai,38.6,39,176,54.7,10.7,1012,2025-11-06,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,36.7,41,179,42.2,7.4,1012,2025-11-07,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,18.8,38,71,15.9,10.4,1002,2025-11-01,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Jaipur,21.5,81,250,32.4,12.7,996,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,33.6,45,163,20.3,19.4,1001,2025-11-03,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Mumbai,33.0,81,85,28.2,15.2,997,2025-11-04,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Bangalore,27.6,56,177,2.3,17.1,1009,2025-11-05,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Mumbai,31.5,38,79,32.9,7.5,995,2025-11-06,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Chennai,37.9,75,52,3.4,10.5,997,2025-11-07,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Ahmedabad,19.9,49,158,0.2,6.7,1013,2025-11-01,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Delhi,28.4,56,108,46.9,8.4,1002,2025-11-02,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Chennai,20.7,75,126,2.6,6.1,1014,2025-11-03,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,23.7,86,206,23.4,13.7,996,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,24.1,46,147,44.7,12.2,1006,2025-11-05,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Hyderabad,37.3,36,84,35.6,19.5,1012,2025-11-06,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Bangalore,19.3,59,167,47.8,13.7,1011,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,19.8,48,125,37.1,17.7,1006,2025-11-01,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Nagpur,33.2,35,198,57.9,17.8,1012,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,24.3,74,142,35.1,12.0,1004,2025-11-03,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Ahmedabad,26.9,59,223,28.1,17.6,1008,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,27.7,41,115,5.0,19.8,1008,2025-11-05,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Mumbai,28.8,48,120,7.6,4.6,1000,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,21.4,67,240,10.9,16.9,1014,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,34.2,71,66,19.6,15.8,997,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,31.8,69,172,7.1,9.0,1006,2025-11-02,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Bangalore,34.2,62,92,53.1,6.6,1012,2025-11-03,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Delhi,23.0,51,217,16.8,14.6,999,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,33.8,45,242,21.5,3.9,1013,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,27.0,45,146,0.1,11.5,997,2025-11-06,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,34.3,35,133,27.2,17.2,1015,2025-11-07,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,31.4,56,167,29.1,16.6,1010,2025-11-01,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Pune,22.1,61,193,53.7,5.7,1015,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,39.6,74,58,55.0,13.2,1000,2025-11-03,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Chennai,24.9,82,226,33.6,12.7,1010,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,37.7,88,144,44.4,17.5,997,2025-11-05,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Nagpur,20.1,38,105,12.6,5.4,997,2025-11-06,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Pune,21.3,43,76,57.3,19.0,996,2025-11-07,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,36.1,57,210,45.9,16.4,1006,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,37.0,43,101,39.7,5.8,1007,2025-11-02,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Chennai,20.1,46,112,12.3,14.3,1002,2025-11-03,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Ahmedabad,38.7,55,131,2.5,17.8,1005,2025-11-04,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Kolkata,24.7,39,104,25.3,6.3,997,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,33.4,83,206,8.1,4.9,1006,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,23.0,46,165,31.4,17.0,1000,2025-11-07,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,30.7,82,51,37.6,14.1,1005,2025-11-01,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Jaipur,21.6,65,93,34.7,9.1,998,2025-11-02,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Kolkata,38.0,84,160,24.5,14.3,1002,2025-11-03,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Ahmedabad,28.7,71,172,23.9,11.5,1002,2025-11-04,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Delhi,22.3,52,77,7.1,18.2,1005,2025-11-05,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,20.2,57,236,58.9,4.7,1013,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,31.1,44,189,7.2,12.0,999,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,34.9,46,239,30.0,12.7,1015,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,36.8,36,87,26.1,2.1,995,2025-11-02,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Chennai,39.0,87,142,24.7,19.4,996,2025-11-03,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Delhi,24.2,67,168,36.9,12.9,1001,2025-11-04,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Jaipur,24.7,57,204,49.4,19.9,1002,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,31.4,81,149,41.1,15.1,1012,2025-11-06,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,21.2,82,152,9.3,9.6,1005,2025-11-07,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Nagpur,20.3,42,80,29.8,5.6,1010,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,25.6,51,199,19.3,10.9,1009,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,28.7,37,125,34.6,18.3,998,2025-11-03,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Jaipur,30.8,64,91,53.6,18.6,1000,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,36.4,55,202,20.3,2.1,1003,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,19.4,55,82,36.3,13.3,1007,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Mumbai,20.8,76,71,54.0,8.2,998,2025-11-07,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Ahmedabad,28.7,89,130,28.7,2.6,1004,2025-11-01,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,21.0,55,109,7.1,15.0,995,2025-11-02,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Bangalore,26.2,83,128,36.0,7.7,1012,2025-11-03,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,27.1,65,73,43.2,4.8,1013,2025-11-04,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Mumbai,37.7,60,185,13.4,9.8,1003,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,24.7,71,87,1.1,18.4,1002,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,29.9,86,185,29.2,3.6,1009,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,18.2,45,242,54.4,17.7,1005,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,18.3,40,206,34.8,10.1,1000,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,26.9,37,150,16.3,17.5,1006,2025-11-03,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Delhi,20.3,88,143,8.1,9.4,1010,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,26.1,35,79,35.7,4.0,1011,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,35.1,46,136,36.7,9.5,1014,2025-11-06,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,23.1,74,74,34.9,5.5,1007,2025-11-07,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Hyderabad,25.3,60,142,47.5,2.9,1005,2025-11-01,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Bangalore,35.0,70,164,19.0,19.5,1005,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,36.9,70,156,41.7,11.0,999,2025-11-03,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Pune,31.7,49,130,7.8,3.6,1006,2025-11-04,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Mumbai,36.4,44,164,35.1,7.2,1009,2025-11-05,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Delhi,20.9,43,190,38.6,2.1,997,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,36.5,36,66,35.7,8.2,1006,2025-11-07,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,35.6,50,70,31.8,8.3,1003,2025-11-01,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Hyderabad,38.3,64,89,10.2,15.6,1000,2025-11-02,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,24.1,88,207,1.6,9.1,1005,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,23.1,40,76,49.5,18.4,1013,2025-11-04,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,31.7,80,249,42.2,15.2,1004,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,38.1,85,122,16.5,12.6,998,2025-11-06,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,32.1,40,91,47.2,9.0,996,2025-11-07,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Chennai,34.5,45,133,43.1,7.7,997,2025-11-01,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Delhi,30.7,43,192,36.0,19.2,1000,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,26.2,61,63,18.8,10.8,1006,2025-11-03,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,30.8,39,176,44.1,19.5,1010,2025-11-04,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Pune,36.9,63,61,44.4,7.9,999,2025-11-05,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Pune,37.4,56,94,50.6,9.7,1004,2025-11-06,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Nagpur,28.7,50,224,38.5,5.4,1013,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,35.2,38,239,42.9,10.4,1003,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,36.3,59,100,49.0,4.3,1012,2025-11-02,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Hyderabad,30.7,57,125,39.7,16.9,1002,2025-11-03,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,39.4,53,238,25.3,4.6,995,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,34.2,90,87,49.0,8.8,1005,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Delhi,39.5,74,112,16.2,17.4,1001,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,36.1,83,199,49.4,16.3,1011,2025-11-07,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Nagpur,24.4,66,96,37.6,3.2,1010,2025-11-01,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,30.7,66,203,40.4,4.7,1005,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,22.0,63,178,1.1,6.5,1015,2025-11-03,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Jaipur,35.9,76,116,8.3,7.0,1007,2025-11-04,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,38.9,49,233,1.3,5.4,1008,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,35.1,66,194,25.5,7.2,1005,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,25.5,80,91,5.7,15.4,1015,2025-11-07,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Jaipur,39.0,66,93,56.2,11.7,997,2025-11-01,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Delhi,37.6,82,84,44.1,6.4,997,2025-11-02,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Delhi,33.8,44,217,36.9,14.0,1000,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,20.2,44,212,24.2,16.3,1013,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,30.7,42,138,36.8,11.8,1004,2025-11-05,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Bangalore,18.3,71,66,1.9,3.9,1014,2025-11-06,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Nagpur,31.9,72,120,5.2,17.0,1010,2025-11-07,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Bangalore,33.7,65,148,43.3,19.9,1000,2025-11-01,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Jaipur,28.9,46,228,8.7,13.9,996,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,31.7,47,58,45.4,16.8,1011,2025-11-03,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Pune,24.2,48,66,29.8,12.1,1015,2025-11-04,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Chennai,31.0,82,242,50.1,11.8,1004,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,20.9,52,135,42.8,10.8,1012,2025-11-06,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Mumbai,20.3,47,110,34.9,5.7,998,2025-11-07,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Mumbai,18.9,75,89,34.7,3.1,997,2025-11-01,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Jaipur,32.4,60,164,37.3,12.9,999,2025-11-02,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Chennai,27.9,71,154,25.6,10.9,1007,2025-11-03,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Delhi,32.4,86,154,55.1,2.1,1005,2025-11-04,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Ahmedabad,27.1,66,175,46.8,4.4,1005,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,33.8,38,107,39.0,16.8,1011,2025-11-06,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,24.6,53,100,34.1,14.7,1010,2025-11-07,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Nagpur,39.4,89,130,38.1,8.7,999,2025-11-01,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,31.1,73,194,41.2,4.4,1001,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,37.1,66,80,38.2,14.5,1000,2025-11-03,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Bangalore,33.5,83,231,33.8,9.3,1003,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,31.4,39,181,37.3,17.1,1005,2025-11-05,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,19.5,35,123,12.4,10.6,1008,2025-11-06,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Ahmedabad,27.0,41,159,0.3,4.3,1007,2025-11-07,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,22.8,86,233,16.7,5.5,1011,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,19.1,64,226,38.1,16.0,1008,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,32.7,36,136,56.5,20.0,1001,2025-11-03,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Bangalore,19.4,48,154,32.2,18.1,1009,2025-11-04,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,32.3,80,159,44.7,19.4,995,2025-11-05,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Pune,21.7,72,54,33.9,8.6,999,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,34.7,80,245,55.1,18.5,1014,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,18.6,44,71,6.1,15.4,1013,2025-11-01,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Kolkata,29.4,50,189,18.1,4.2,1011,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,23.3,83,115,12.6,6.7,1001,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,31.2,39,64,13.8,17.4,1000,2025-11-04,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Pune,22.9,84,146,7.6,12.4,996,2025-11-05,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Hyderabad,33.8,62,175,43.7,14.1,1009,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,23.4,42,111,33.9,6.0,995,2025-11-07,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Pune,22.2,37,83,53.9,13.3,1012,2025-11-01,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Kolkata,34.8,66,63,17.7,18.2,996,2025-11-02,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Mumbai,25.9,85,246,37.6,16.8,1006,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,24.2,66,86,50.3,15.8,1012,2025-11-04,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Bangalore,19.7,75,118,43.7,12.5,1011,2025-11-05,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Delhi,23.7,60,111,35.4,6.8,1012,2025-11-06,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Hyderabad,22.0,46,192,54.8,13.6,1013,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,29.7,50,105,54.7,2.5,1003,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,31.1,57,162,4.1,3.3,1012,2025-11-02,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,23.0,56,232,28.5,12.1,1014,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,24.5,68,239,52.7,14.2,1001,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Ahmedabad,36.6,47,68,51.0,2.8,1011,2025-11-05,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,34.0,82,100,3.7,8.6,1001,2025-11-06,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,34.5,70,86,47.5,18.6,1015,2025-11-07,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Pune,30.7,53,201,36.1,16.0,1007,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,36.2,74,131,20.7,17.4,996,2025-11-02,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Pune,18.1,82,61,3.2,8.0,1000,2025-11-03,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Jaipur,29.3,58,100,57.6,16.5,1015,2025-11-04,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,35.9,45,66,48.0,8.8,1001,2025-11-05,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Hyderabad,34.7,61,70,17.9,13.3,996,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Hyderabad,20.1,52,129,2.3,8.0,996,2025-11-07,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,26.1,38,162,21.8,13.1,999,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,30.8,70,104,11.9,19.3,1007,2025-11-02,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Jaipur,21.4,82,111,53.3,3.0,1005,2025-11-03,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,26.3,76,116,36.8,11.6,1002,2025-11-04,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Bangalore,38.4,46,173,58.8,5.5,997,2025-11-05,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,36.6,86,104,27.0,7.1,1007,2025-11-06,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,19.6,70,201,48.7,19.6,1006,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,38.5,64,84,37.1,12.1,1008,2025-11-01,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Jaipur,34.0,88,217,13.7,7.0,1000,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,29.7,86,168,17.8,6.8,1012,2025-11-03,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Delhi,27.9,75,133,45.2,16.2,1008,2025-11-04,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Chennai,28.9,84,225,25.0,3.6,999,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,18.6,76,247,6.4,17.7,1014,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Delhi,21.0,53,85,9.2,11.1,1014,2025-11-07,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Jaipur,25.8,85,225,6.4,8.5,1002,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,38.6,66,176,3.9,4.8,997,2025-11-02,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Ahmedabad,35.0,87,134,25.5,8.5,1013,2025-11-03,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Bangalore,30.5,39,214,31.1,14.3,1008,2025-11-04,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,21.3,37,139,44.7,14.9,1015,2025-11-05,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Mumbai,39.3,53,241,23.4,2.1,996,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,30.3,90,151,7.3,3.6,1009,2025-11-07,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,30.7,47,249,48.2,7.4,1003,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,38.6,61,243,44.7,19.1,1008,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,27.5,76,154,58.9,18.0,1011,2025-11-03,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Pune,27.2,89,67,21.6,16.0,996,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Chennai,22.1,85,104,17.2,15.6,998,2025-11-05,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Pune,35.2,40,52,57.0,9.5,1006,2025-11-06,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,37.7,88,68,47.4,6.3,1004,2025-11-07,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Mumbai,19.3,61,239,6.6,19.8,1009,2025-11-01,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,34.3,37,171,51.3,7.4,1011,2025-11-02,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Hyderabad,27.5,35,217,2.6,5.7,996,2025-11-03,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Kolkata,37.0,68,133,11.3,18.4,1004,2025-11-04,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Nagpur,29.9,54,145,33.7,17.2,1012,2025-11-05,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Delhi,19.5,73,229,57.5,10.9,1010,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,33.9,82,209,17.0,2.3,1004,2025-11-07,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Bangalore,38.7,61,213,7.3,12.9,1003,2025-11-01,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,27.4,49,247,28.3,12.2,999,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,38.7,47,62,42.8,6.5,1004,2025-11-03,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Bangalore,28.4,88,133,27.7,18.0,1012,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Kolkata,21.4,87,71,49.5,16.4,1010,2025-11-05,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Pune,35.8,35,192,43.4,9.7,997,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Jaipur,37.1,51,65,33.8,7.5,1015,2025-11-07,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Nagpur,26.9,49,146,34.5,9.8,995,2025-11-01,Today,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Pune,36.0,77,210,0.1,10.6,996,2025-11-02,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Mumbai,27.7,76,180,6.7,16.6,1006,2025-11-03,Today,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,20.0,40,96,8.1,14.9,1007,2025-11-04,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Bangalore,37.1,48,209,37.5,6.0,996,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,27.0,87,215,59.1,14.8,1009,2025-11-06,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Mumbai,34.0,36,220,5.5,10.0,1013,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,21.9,52,106,52.4,16.5,999,2025-11-01,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Kolkata,20.4,42,217,41.7,18.9,1015,2025-11-02,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,29.3,39,75,48.4,3.5,995,2025-11-03,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Chennai,28.2,81,142,8.7,13.0,997,2025-11-04,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Bangalore,23.0,68,177,11.4,15.5,1004,2025-11-05,Today,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Nagpur,20.4,74,125,29.3,5.5,1013,2025-11-06,Tomorrow,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Bangalore,19.1,43,118,24.5,10.7,1000,2025-11-07,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Jaipur,23.6,69,177,34.3,18.8,1001,2025-11-01,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Hyderabad,18.6,50,75,21.5,16.8,1010,2025-11-02,Today,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Mumbai,22.9,37,191,22.8,7.8,997,2025-11-03,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Hyderabad,22.6,64,233,55.1,9.9,1000,2025-11-04,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Nagpur,29.8,62,187,12.5,3.4,1013,2025-11-05,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,28.7,64,147,58.2,6.3,999,2025-11-06,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,34.0,43,87,20.4,18.6,1014,2025-11-07,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Bangalore,25.0,35,146,59.7,18.7,996,2025-11-01,Tomorrow,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Nagpur,18.9,83,147,33.1,4.2,1004,2025-11-02,Tomorrow,Dengue,Moderate,Use mosquito repellent,Avoid stagnant water,Sleep under mosquito net
+Nagpur,39.0,74,170,9.1,19.3,1002,2025-11-03,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Kolkata,20.2,47,51,13.8,6.3,1014,2025-11-04,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Delhi,18.8,69,144,6.0,6.7,1012,2025-11-05,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Hyderabad,32.0,87,126,7.2,8.3,1006,2025-11-06,Today,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Pune,20.5,44,64,38.5,15.6,1008,2025-11-07,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Bangalore,36.8,70,96,42.7,16.5,1014,2025-11-01,Tomorrow,Skin Allergy,Low,Avoid direct sun exposure,Use mild soap,Moisturize skin
+Chennai,38.4,84,159,34.7,2.4,1012,2025-11-02,Tomorrow,Heatstroke,High,Stay hydrated and indoors,Avoid outdoor work 12–4 PM,Drink ORS if dizzy
+Nagpur,19.1,48,175,55.7,10.9,996,2025-11-03,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts
+Kolkata,28.4,43,74,47.6,10.3,1003,2025-11-04,Tomorrow,Bronchitis,High,Avoid dusty areas,Use air purifier,Consult doctor if cough persists
+Nagpur,19.3,74,118,59.2,11.9,997,2025-11-05,Today,Common Cold,Moderate,Wear warm clothes,Drink warm water,Avoid chilled drinks
+Delhi,22.3,62,239,28.5,6.6,1011,2025-11-06,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,31.4,69,207,52.0,3.0,1001,2025-11-07,Today,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Pune,32.7,51,168,36.8,14.8,1000,2025-11-01,Today,Normal,Low,No major risk,Maintain hydration,Get regular exercise
+Nagpur,21.5,43,52,55.8,14.2,1001,2025-11-02,Tomorrow,Asthma,High,Avoid outdoor activity,Use N95 mask,Keep inhaler handy
+Chennai,23.6,80,86,47.2,3.9,1014,2025-11-03,Tomorrow,Dehydration,Moderate,Drink 2-3L water daily,Avoid caffeine,Use oral rehydration salts

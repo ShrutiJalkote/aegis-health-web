@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+
+{% block title %}Predict Health Risk - Aegis Health{% endblock %}
+
+{% block content %}
+<div class="predict-container">
+    <div class="page-header">
+        <h1><i class="fas fa-chart-line"></i> Health Risk Prediction</h1>
+        <p>Get instant health risk predictions based on weather data</p>
+    </div>
+
+    <div class="predict-card">
+        <form method="POST" action="{{ url_for('predict') }}" id="predictForm">
+            <div class="form-group">
+                <label for="city">
+                    <i class="fas fa-city"></i> City Name (Optional)
+                </label>
+                <div class="input-group">
+                    <input type="text" id="city" name="city" placeholder="Enter city name" value="{{ city if city else '' }}">
+                    <button type="button" id="fetchWeatherBtn" class="btn btn-secondary">
+                        <i class="fas fa-cloud-sun"></i> Fetch Weather
+                    </button>
+                </div>
+                <small>Leave empty to enter values manually</small>
+            </div>
+
+            <div class="weather-toggle">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="useWeather" name="use_weather" value="true" {{ 'checked' if weather_data else '' }}>
+                    <span class="toggle-slider"></span>
+                    <span>Use fetched weather data</span>
+                </label>
+            </div>
+
+            <div class="weather-inputs">
+                <h3><i class="fas fa-thermometer-half"></i> Weather Parameters</h3>
+                <div class="input-grid">
+                    <div class="form-group">
+                        <label for="temperature">Temperature (°C)</label>
+                        <input type="number" id="temperature" name="temperature" step="0.1" 
+                               value="{{ weather_data.Temperature if weather_data else '' }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="humidity">Humidity (%)</label>
+                        <input type="number" id="humidity" name="humidity" step="0.1" 
+                               value="{{ weather_data.Humidity if weather_data else '' }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="aqi">AQI</label>
+                        <input type="number" id="aqi" name="aqi" step="0.1" 
+                               value="{{ weather_data.AQI if weather_data else '' }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rainfall">Rainfall (mm)</label>
+                        <input type="number" id="rainfall" name="rainfall" step="0.1" 
+                               value="{{ weather_data.Rainfall if weather_data else '' }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="windspeed">Wind Speed (m/s)</label>
+                        <input type="number" id="windspeed" name="windspeed" step="0.1" 
+                               value="{{ weather_data.WindSpeed if weather_data else '' }}" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pressure">Pressure (hPa)</label>
+                        <input type="number" id="pressure" name="pressure" step="0.1" 
+                               value="{{ weather_data.Pressure if weather_data else '' }}" required>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large">
+                <i class="fas fa-brain"></i> Predict Health Risk
+            </button>
+        </form>
+    </div>
+
+    {% if disease and risk %}
+    <div class="result-card">
+        <h2><i class="fas fa-clipboard-check"></i> Prediction Results</h2>
+        
+        <div class="result-grid">
+            <div class="result-item">
+                <div class="result-icon disease">
+                    <i class="fas fa-virus"></i>
+                </div>
+                <div class="result-content">
+                    <h3>Predicted Disease Risk</h3>
+                    <p class="result-value">{{ disease }}</p>
+                </div>
+            </div>
+
+            <div class="result-item">
+                <div class="result-icon risk">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="result-content">
+                    <h3>Risk Level</h3>
+                    <p class="result-value">{{ risk }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="precautions-section">
+            <h3><i class="fas fa-shield-alt"></i> Recommended Precautions</h3>
+            <ul class="precautions-list">
+                {% for precaution in precautions %}
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    {{ precaution }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        {% if weather_data %}
+        <div class="weather-display">
+            <h3><i class="fas fa-cloud-sun"></i> Weather Data Used</h3>
+            <div class="weather-grid">
+                <div class="weather-item">
+                    <span class="weather-label">Temperature:</span>
+                    <span class="weather-value">{{ weather_data.Temperature }}°C</span>
+                </div>
+                <div class="weather-item">
+                    <span class="weather-label">Humidity:</span>
+                    <span class="weather-value">{{ weather_data.Humidity }}%</span>
+                </div>
+                <div class="weather-item">
+                    <span class="weather-label">AQI:</span>
+                    <span class="weather-value">{{ weather_data.AQI }}</span>
+                </div>
+                <div class="weather-item">
+                    <span class="weather-label">Rainfall:</span>
+                    <span class="weather-value">{{ weather_data.Rainfall }}mm</span>
+                </div>
+                <div class="weather-item">
+                    <span class="weather-label">Wind Speed:</span>
+                    <span class="weather-value">{{ weather_data.WindSpeed }} m/s</span>
+                </div>
+                <div class="weather-item">
+                    <span class="weather-label">Pressure:</span>
+                    <span class="weather-value">{{ weather_data.Pressure }} hPa</span>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('fetchWeatherBtn').addEventListener('click', function() {
+    const city = document.getElementById('city').value.trim();
+    if (!city) {
+        alert('Please enter a city name first');
+        return;
+    }
+
+    const btn = this;
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Fetching...';
+
+    fetch('/fetch_weather', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ city: city })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            alert(data.error);
+        } else {
+            document.getElementById('temperature').value = data.Temperature;
+            document.getElementById('humidity').value = data.Humidity;
+            document.getElementById('aqi').value = data.AQI;
+            document.getElementById('rainfall').value = data.Rainfall;
+            document.getElementById('windspeed').value = data.WindSpeed;
+            document.getElementById('pressure').value = data.Pressure;
+            document.getElementById('useWeather').checked = true;
+            alert('Weather data fetched successfully!');
+        }
+    })
+    .catch(err => {
+        alert('Error fetching weather data');
+        console.error(err);
+    })
+    .finally(() => {
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fas fa-cloud-sun"></i> Fetch Weather';
+    });
+});
+</script>
+{% endblock %}
+

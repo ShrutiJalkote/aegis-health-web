@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+
+{% block title %}Alerts - Aegis Health{% endblock %}
+
+{% block content %}
+<div class="alerts-container">
+    <div class="page-header">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <div>
+                <h1><i class="fas fa-bell"></i> Alert System</h1>
+                <p>Monitor and manage health alert notifications</p>
+            </div>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="background: #e8f5e9; padding: 0.5rem 1rem; border-radius: 5px; display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-user-shield" style="color: #4caf50;"></i>
+                    <span style="font-weight: bold; color: #2e7d32;">Admin: {{ session.get('admin_username', 'Admin') }}</span>
+                </div>
+                <a href="{{ url_for('admin_logout') }}" class="btn btn-secondary btn-sm">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="alerts-card">
+        <div class="alert-status">
+            <div class="status-card">
+                <div class="status-icon {{ 'status-active' if alert_running else 'status-inactive' }}">
+                    <i class="fas fa-{{ 'check-circle' if alert_running else 'times-circle' }}"></i>
+                </div>
+                <div class="status-info">
+                    <h3>Alert System Status</h3>
+                    <p class="status-text">{{ 'Active' if alert_running else 'Inactive' }}</p>
+                </div>
+            </div>
+
+            <div class="alert-stats">
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <h4>Registered Users</h4>
+                        <p>{{ total_users }}</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Alert Frequency</h4>
+                        <p>Every 1 hour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert-info">
+            <h3><i class="fas fa-info-circle"></i> How It Works</h3>
+            <div class="info-content">
+                <p>The alert system automatically sends health risk predictions via SMS to all registered users every hour. The system:</p>
+                <ol>
+                    <li>Fetches weather data for each user's city</li>
+                    <li>Predicts health risk using the trained model</li>
+                    <li>Sends SMS alerts with disease risk, risk level, and precautions</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="alert-actions">
+            <h3><i class="fas fa-paper-plane"></i> Send Real-Time Alerts</h3>
+            <p>Send immediate health alerts to registered users based on current weather conditions.</p>
+            
+            {% if users %}
+            <div class="send-all-section">
+                <form method="POST" action="{{ url_for('send_alert_all') }}" onsubmit="return confirm('Send alerts to all {{ users|length }} registered users?');" style="margin-bottom: 2rem;">
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-broadcast-tower"></i> Send Alert to All Users
+                    </button>
+                </form>
+            </div>
+
+            <div class="users-alert-list">
+                <h4><i class="fas fa-users"></i> Registered Users</h4>
+                <div class="users-table-container">
+                    <table class="users-alert-table">
+                        <thead>
+                            <tr>
+                                <th><i class="fas fa-hashtag"></i> #</th>
+                                <th><i class="fas fa-phone"></i> Phone</th>
+                                <th><i class="fas fa-city"></i> City</th>
+                                <th><i class="fas fa-cog"></i> Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for user in users %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td>{{ user.phone }}</td>
+                                <td>{{ user.city }}</td>
+                                <td>
+                                    <form method="POST" action="{{ url_for('send_alert', user_id=loop.index0) }}" style="display: inline;">
+                                        <button type="submit" class="btn btn-success btn-sm">
+                                            <i class="fas fa-paper-plane"></i> Send Alert
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% else %}
+            <div class="empty-state">
+                <i class="fas fa-user-slash"></i>
+                <h4>No users registered</h4>
+                <p>Register users first to send alerts</p>
+                <a href="{{ url_for('register') }}" class="btn btn-primary">
+                    <i class="fas fa-user-plus"></i> Register User
+                </a>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="alert-info-section">
+            <h3><i class="fas fa-info-circle"></i> Automated Alert System</h3>
+            <div class="action-info">
+                <p><strong>Note:</strong> To start the automated hourly alert system, run the <code>send_alerts.py</code> script separately:</p>
+                <pre><code>python send_alerts.py</code></pre>
+                <p>The script runs continuously and sends alerts every hour to all registered users automatically.</p>
+            </div>
+        </div>
+
+        <div class="alert-troubleshooting">
+            <h3><i class="fas fa-tools"></i> Troubleshooting SMS Issues</h3>
+            <div class="troubleshooting-content">
+                <p><strong>If alerts are not being sent, check the following:</strong></p>
+                <ul>
+                    <li><strong>Twilio Trial Account:</strong> If you're using a Twilio trial account, you must verify recipient phone numbers first. 
+                        <a href="https://console.twilio.com/us1/develop/phone-numbers/manage/verified" target="_blank">Verify numbers here</a>
+                    </li>
+                    <li><strong>Daily Limit:</strong> Trial accounts are limited to 50 messages per day. Upgrade your account to send more.</li>
+                    <li><strong>Phone Format:</strong> Ensure phone numbers are in E.164 format (e.g., +91XXXXXXXXXX)</li>
+                    <li><strong>Account Balance:</strong> Check that your Twilio account has sufficient balance</li>
+                    <li><strong>Credentials:</strong> Verify your Twilio Account SID and Auth Token are correct</li>
+                </ul>
+                {% if users %}
+                <div class="diagnostic-actions" style="margin-top: 1rem;">
+                    <p><strong>Test & Diagnose:</strong></p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        {% for user in users %}
+                        <a href="{{ url_for('diagnose_sms', user_id=loop.index0) }}" class="btn btn-info btn-sm" target="_blank">
+                            <i class="fas fa-stethoscope"></i> Diagnose User {{ loop.index }}
+                        </a>
+                        <a href="{{ url_for('test_alert', user_id=loop.index0) }}" class="btn btn-warning btn-sm" target="_blank">
+                            <i class="fas fa-vial"></i> Test Alert User {{ loop.index }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Add loading state to alert buttons
+document.addEventListener('DOMContentLoaded', function() {
+    const alertForms = document.querySelectorAll('form[action*="send_alert"]');
+    alertForms.forEach(form => {
+        form.addEventListener('submit', function(e) {
+            const button = form.querySelector('button[type="submit"]');
+            if (button) {
+                const originalText = button.innerHTML;
+                button.disabled = true;
+                button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                
+                // Re-enable after 10 seconds in case of error
+                setTimeout(() => {
+                    button.disabled = false;
+                    button.innerHTML = originalText;
+                }, 10000);
+            }
+        });
+    });
+    
+    // Add click logging for debugging
+    const alertButtons = document.querySelectorAll('button[type="submit"]');
+    alertButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            console.log('Send Alert button clicked');
+            const form = button.closest('form');
+            if (form) {
+                console.log('Form action:', form.action);
+            }
+        });
+    });
+});
+</script>
+{% endblock %}
+

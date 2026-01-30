@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}Users - Aegis Health{% endblock %}
+
+{% block content %}
+<div class="users-container">
+    <div class="page-header">
+        <h1><i class="fas fa-users"></i> Registered Users</h1>
+        <p>Manage users receiving health alerts</p>
+    </div>
+
+    <div class="users-card">
+        {% if users %}
+        <div class="table-container">
+            <table class="users-table">
+                <thead>
+                    <tr>
+                        <th><i class="fas fa-hashtag"></i> ID</th>
+                        <th><i class="fas fa-phone"></i> Phone</th>
+                        <th><i class="fas fa-city"></i> City</th>
+                        <th><i class="fas fa-cog"></i> Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td>{{ user.phone }}</td>
+                        <td>{{ user.city }}</td>
+                        <td>
+                            <form method="POST" action="{{ url_for('delete_user', user_id=loop.index0) }}" 
+                                  onsubmit="return confirm('Are you sure you want to delete this user?');" 
+                                  style="display: inline;">
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i> Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="users-stats">
+            <div class="stat-badge">
+                <i class="fas fa-users"></i>
+                <span>Total Users: {{ users|length }}</span>
+            </div>
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <i class="fas fa-user-slash"></i>
+            <h3>No users registered yet</h3>
+            <p>Start by registering a new user to receive health alerts</p>
+            <a href="{{ url_for('register') }}" class="btn btn-primary">
+                <i class="fas fa-user-plus"></i> Register User
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+

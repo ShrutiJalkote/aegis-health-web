@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Aegis Health{% endblock %}
+
+{% block content %}
+<div class="dashboard">
+    <div class="page-header">
+        <h1><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+        <p>Welcome to Aegis Health Risk Prediction System</p>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon blue">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-info">
+                <h3>Registered Users</h3>
+                <p class="stat-value">{{ users_count if users_count else 0 }}</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon green">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="stat-info">
+                <h3>Model Status</h3>
+                <p class="stat-value">{{ "Trained" if model_loaded else "Not Loaded" }}</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon orange">
+                <i class="fas fa-bell"></i>
+            </div>
+            <div class="stat-info">
+                <h3>Alert System</h3>
+                <p class="stat-value">{{ "Active" if alerts_active else "Inactive" }}</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon purple">
+                <i class="fas fa-cloud-sun"></i>
+            </div>
+            <div class="stat-info">
+                <h3>Weather API</h3>
+                <p class="stat-value">Connected</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="quick-actions">
+        <h2><i class="fas fa-bolt"></i> Quick Actions</h2>
+        <div class="action-grid">
+            <a href="{{ url_for('predict') }}" class="action-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Predict Health Risk</h3>
+                <p>Get instant health risk predictions based on weather data</p>
+            </a>
+
+            <a href="{{ url_for('register') }}" class="action-card">
+                <i class="fas fa-user-plus"></i>
+                <h3>Register User</h3>
+                <p>Add new users to receive hourly health alerts</p>
+            </a>
+
+            <a href="{{ url_for('users') }}" class="action-card">
+                <i class="fas fa-list"></i>
+                <h3>View Users</h3>
+                <p>Manage registered users and their information</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <h2><i class="fas fa-info-circle"></i> About Aegis Health</h2>
+        <div class="info-content">
+            <p>Aegis Health is an intelligent health risk prediction system that uses machine learning to analyze weather and climate data to predict potential health risks and provide actionable precautions.</p>
+            <ul>
+                <li><i class="fas fa-check"></i> Real-time weather data integration</li>
+                <li><i class="fas fa-check"></i> Machine learning-based predictions</li>
+                <li><i class="fas fa-check"></i> Automated SMS alerts</li>
+                <li><i class="fas fa-check"></i> Comprehensive health risk assessment</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Fetch stats on page load
+    fetch('/api/stats')
+        .then(res => res.json())
+        .then(data => {
+            // Update stats if API exists
+        })
+        .catch(err => console.log('Stats API not available'));
+</script>
+{% endblock %}
+

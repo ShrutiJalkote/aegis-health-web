@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Verify OTP - Aegis Health{% endblock %}
+
+{% block content %}
+<div class="form-container">
+    <div class="form-card">
+        <div class="form-header">
+            <h1><i class="fas fa-key"></i> Verify OTP</h1>
+            <p>Enter the OTP sent to {{ phone }}</p>
+        </div>
+
+        <form method="POST" action="{{ url_for('verify_otp') }}" class="otp-form">
+            <div class="form-group">
+                <label for="otp">
+                    <i class="fas fa-shield-alt"></i> OTP Code
+                </label>
+                <input type="text" id="otp" name="otp" placeholder="Enter 6-digit OTP" maxlength="6" pattern="[0-9]{6}" required autofocus>
+                <small>Check your SMS for the 6-digit code</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-check"></i> Verify OTP
+            </button>
+        </form>
+
+        <div class="form-footer">
+            <p>Didn't receive OTP? <a href="{{ url_for('register') }}">Register again</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
