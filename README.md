@@ -193,8 +193,35 @@ python flask_app.py
 See `requirements.txt` for complete list.
 
 ## Dashboard Screenshot
+
 <img width="1919" height="1023" alt="Screenshot 2026-01-31 163933" src="https://github.com/user-attachments/assets/0a65b324-7db2-4198-8c8c-11f870545ef7" />
 
+<img width="1896" height="1021" alt="Screenshot 2026-01-31 164012" src="https://github.com/user-attachments/assets/3d99677e-36ec-4c22-ad70-c58e624cbbee" />
+
+<img width="1906" height="1016" alt="Screenshot 2026-01-31 164037" src="https://github.com/user-attachments/assets/229622ff-9379-46de-aacb-6aa8739da4de" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-01-31 164445" src="https://github.com/user-attachments/assets/2679dc9c-0426-45d2-b690-9309f950a0c8" />
+
+<img width="1916" height="1019" alt="Screenshot 2026-01-31 164907" src="https://github.com/user-attachments/assets/bf106c07-d40e-403c-ab0e-e918c4ff4667" />
+
+<img width="1908" height="1020" alt="Screenshot 2026-01-31 164949" src="https://github.com/user-attachments/assets/8f0a52ed-29e1-494d-b803-bc22d1a4d901" />
+
+<img width="1901" height="1020" alt="Screenshot 2026-01-31 165008" src="https://github.com/user-attachments/assets/ee777adf-8810-4fd5-98bc-1a2f81554c44" />
+
+<img width="1902" height="1024" alt="Screenshot 2026-01-31 165038" src="https://github.com/user-attachments/assets/02efa064-edfc-431c-83db-810c86910d05" />
+
+<img width="1900" height="1026" alt="Screenshot 2026-01-31 165059" src="https://github.com/user-attachments/assets/1bca8964-557d-4a80-9a28-5447727484c4" />
+
+<img width="1917" height="1013" alt="Screenshot 2026-01-31 165129" src="https://github.com/user-attachments/assets/eed63583-0445-434a-b9ba-93e0ca2785d5" />
+
+<img width="1902" height="1015" alt="Screenshot 2026-01-31 165201" src="https://github.com/user-attachments/assets/2ffc1476-b458-46f1-9241-95c007475fdb" />
+
+<img width="1895" height="1018" alt="Screenshot 2026-01-31 165223" src="https://github.com/user-attachments/assets/7bf349f8-8f4c-4129-855b-38c2792d3f1e" />
+
+<img width="1903" height="1013" alt="Screenshot 2026-01-31 165247" src="https://github.com/user-attachments/assets/e9a1e355-ecc7-4a0e-9235-c747bac57ba0" />
+
+
+![otp_alert_msg](https://github.com/user-attachments/assets/3bbc0327-15fb-4e82-8a24-9349b3a3a43a)
 
 ## License
 
