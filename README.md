@@ -15,6 +15,40 @@ https://aegis-health-web.onrender.com
 - **Real-time Weather**: Fetches current weather data from OpenWeatherMap API
 - **Automated Alerts**: Optional automated hourly alert system
 
+## This project uses Twilio SMS service for sending health alert messages.
+
+Currently, the project is running on Twilio Free Trial Plan, which has a limitation:
+
+SMS messages can be sent only to verified phone numbers added in the Twilio account.
+
+If a user registers with an unverified number, OTP and alert messages will not be delivered.
+
+### Verified Numbers in This Project
+
+The following numbers are already verified in my Twilio account and will receive SMS alerts correctly:
+
+7350512745
+
+7058050251
+
+If you try to register using any other number, SMS delivery will fail because that number is not registered in Twilio trial account.
+
+To test alerts properly, please use one of the above verified numbers.
+
+### Screenshots
+
+For reference, I have also added screenshots at last showing:
+
+Complete Dashboard
+
+User Registration
+
+OTP Verification
+
+Alert Messages Sent via Twilio
+
+These screenshots help verify that the system and SMS alerts are working correctly.
+
 ## Project Structure
 
 ```
@@ -157,6 +191,10 @@ python flask_app.py
 - requests (for weather API)
 
 See `requirements.txt` for complete list.
+
+## Dashboard Screenshot
+<img width="1919" height="1023" alt="Screenshot 2026-01-31 163933" src="https://github.com/user-attachments/assets/0a65b324-7db2-4198-8c8c-11f870545ef7" />
+
 
 ## License
 
