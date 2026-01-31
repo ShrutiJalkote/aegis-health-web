@@ -194,6 +194,8 @@ See `requirements.txt` for complete list.
 
 ## Dashboard Screenshot
 
+
+
 <img width="1919" height="1023" alt="Screenshot 2026-01-31 163933" src="https://github.com/user-attachments/assets/0a65b324-7db2-4198-8c8c-11f870545ef7" />
 
 <img width="1896" height="1021" alt="Screenshot 2026-01-31 164012" src="https://github.com/user-attachments/assets/3d99677e-36ec-4c22-ad70-c58e624cbbee" />
@@ -219,6 +221,11 @@ See `requirements.txt` for complete list.
 <img width="1895" height="1018" alt="Screenshot 2026-01-31 165223" src="https://github.com/user-attachments/assets/7bf349f8-8f4c-4129-855b-38c2792d3f1e" />
 
 <img width="1903" height="1013" alt="Screenshot 2026-01-31 165247" src="https://github.com/user-attachments/assets/e9a1e355-ecc7-4a0e-9235-c747bac57ba0" />
+
+### OTP and Alert msg screnshot
+
+
+![otp_alert_msg_1](https://github.com/user-attachments/assets/6beed329-37b7-463f-8231-0b48772e04f6)
 
 
 ![otp_alert_msg](https://github.com/user-attachments/assets/3bbc0327-15fb-4e82-8a24-9349b3a3a43a)
